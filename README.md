@@ -37,3 +37,7 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+### Average-Case Response
+
+The average case is what we'll be getting most often, we assume when using this algorithm. Generally, the average will be an array that is partially "Sorted" as some values are already in the right order. Assuming this average case would require our nested for loop to run half of n times, because the best case never runs it, and the worst case runs it every time. For $n(n/2)$ constants still cancel and give us $\Theta (n^2)$ 
